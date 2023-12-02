@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheMehdiGame</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Libre+Baskerville&family=Wallpoet&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <h1>Mehdi's game</h1>
+    <div class="container1">
+        <button id="start">Start the Game</button>
+    </div>
+    <div class="container2">
+        <div class="firstRow">
+            <button id="button1" class="btn"></button>
+            <button id="button2" class="btn"></button>
+        </div>
+        <div class="secondRow">
+            <button id="button3" class="btn"></button>
+            <button id="button4" class="btn"></button>
+        </div>
+        <div class="container1">
+            <button id="how">How to play</button>
+        </div>
+        
+            <div class="howToPlay modal-dialog bg-light rounded-3" role="document">
+              <div class="modal-content rounded-4 shadow">
+                <div class="modal-body p-5">
+                  <h2 class="fw-bold mb-0">How to play Mehdi's game</h2>
+          
+                  <ul class="d-grid gap-4 my-5 list-unstyled small">
+                    <li class="d-flex gap-1">
+                      <svg class="bi text-body-secondary flex-shrink-0" width="48" height="30"><use xlink:href="#grid-fill"></use></svg>
+                      <div>
+                        <h5 class="mb-0">1. Press the START button. Mehdi will give the first signal. Repeat the signal by pressing the same color;</h5>
+                      </div>
+                    </li>
+                    <li class="d-flex gap-1">
+                      <svg class="bi text-warning flex-shrink-0" width="48" height="30"><use xlink:href="#bookmark-star"></use></svg>
+                      <div>
+                        <h5 class="mb-0">2. Mehdi will then add a new signal. Repeat the two signals by pressing the same colors, in order;</h5>
+                      </div>
+                    </li>
+                    <li class="d-flex gap-1">
+                      <svg class="bi text-primary flex-shrink-0" width="48" height="30"><use xlink:href="#film"></use></svg>
+                      <div>
+                        <h5 class="mb-0">3. If you've been able to repeat the sequence. Mehdi will then add a new signal;</h5>
+                      </div>
+                    </li>
+                    <li class="d-flex gap-1">
+                        <svg class="bi text-primary flex-shrink-0" width="48" height="10"><use xlink:href="#film"></use></svg>
+                        <div>
+                          <h5 class="mb-0">4. Continue playing as long as you can repeat each sequence of signals correctly;</h5>
+                        </div>
+                    </li>
+                    <li class="d-flex gap-1">
+                        <svg class="bi text-primary flex-shrink-0" width="48" height="10"><use xlink:href="#film"></use></svg>
+                        <div>
+                          <h5 class="mb-0">5. Enjoy your time. 😊</h5>
+                        </div>
+                    </li>
+                  </ul>
+                 </div>
+              </div>
+            </div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
