@@ -90,16 +90,18 @@ $("#start").click(function() {
   
   $(".howToPlay").hide();
   
-    setTimeout(function(){ 
+  setTimeout(function(){ 
     $("#start").fadeOut("slow");
     $("#how").fadeOut("slow");
   }, 1000);
   
-  $(".btn1").fadeIn();
+    setTimeout(function(){ 
+    $(".btn1").fadeIn();
+    levelChange();
+    started = true;
+  }, 1500);
   
-  levelChange();
-
-  started = true;
+  
   }
 })
 
