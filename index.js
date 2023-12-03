@@ -95,11 +95,11 @@ $("#start").click(function() {
     $("#how").fadeOut("slow");
   }, 1000);
   
-    setTimeout(function(){ 
+  setTimeout(function(){ 
     $(".btn1").fadeIn();
     levelChange();
     started = true;
-  }, 1500);
+  }, 2000);
   
   
   }
