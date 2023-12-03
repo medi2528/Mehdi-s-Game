@@ -88,13 +88,14 @@ $("#start").click(function() {
   if (!started) {
   $ ("body").removeClass("errorEffect");
   
-  $("#start").slideUp("slow");
-  
-  $("#how").fadeOut("slow");
-
   $(".howToPlay").hide();
-
-  $(".btn1").slideDown();
+  
+    setTimeout(function(){ 
+    $("#start").fadeOut("slow");
+    $("#how").fadeOut("slow");
+  }, 1000);
+  
+  $(".btn1").fadeIn();
   
   levelChange();
 
