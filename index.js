@@ -4,7 +4,7 @@ var ClickedButtonNumber = 0;
 var userClickedPattern = [];
 var levelNumber = 0;
 var started = false;
-$(".btn").hide();
+$(".btn1").hide();
 $(".howToPlay").hide();
 $("#start").mouseenter(function () {
   $ ("#start").addClass("startEffect");
@@ -59,7 +59,7 @@ function error() {
   var audio = new Audio("./audios/child-says-no.mp3");
   audio.play();
   
-  $(".btn").fadeOut();
+  $(".btn1").fadeOut();
   $("body").addClass("errorEffect");
   $("#start").text("Replay");
   $("#start").slideDown("slow");
@@ -94,7 +94,7 @@ $("#start").click(function() {
 
   $(".howToPlay").hide();
 
-  $(".btn").slideDown();
+  $(".btn1").slideDown();
   
   levelChange();
 
