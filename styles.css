@@ -20,17 +20,6 @@ h1{
     margin-bottom: 20px;
 }
 
-#start{
-    background-color: #141E46;
-    color: #F6F1E9;
-    font-size: 3rem;
-    width: 600px;
-    height: 95px;
-    border-radius: 10px; 
-    border: 5px solid #F6F1E9;
-    font-family: 'Wallpoet', sans-serif;
-}
-
 .container2{
     display: flex;
     flex-direction: column;
@@ -71,17 +60,4 @@ h1{
 
 .startEffect{
     opacity: 75%;
-}
-
-#how{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background-color: rgb(114, 114, 114);
-    color: #F6F1E9;
-    font-size: 2rem;
-    width: 400px;
-    height: 70px;
-    border-radius: 10px; 
-    border: 5px solid #F6F1E9;
-    font-family: 'Wallpoet', sans-serif;
 }
