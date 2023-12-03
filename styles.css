@@ -36,54 +36,28 @@ h1{
     flex-direction: column;
 }
 
-.firstRow{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.secondRow{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
 #button1 {
     background-color: #441c0c;
-    width: 400px;
-    height: 400px;
-    border-radius: 10%;
-    border: 14px solid #F6F1E9;
-    margin: 20px;
+    border-radius: 10px;
+    border: 10px solid #F6F1E9;
 }
 
 #button2 {
     background-color:#92271d;
-    width: 400px;
-    height: 400px;
-    border-radius: 10%;
-    border: 14px solid #F6F1E9;
-    margin: 20px;
+    border-radius: 10px;
+    border: 10px solid #F6F1E9;
 }
 
 #button3{
     background-color: #ED7D31;
-    width: 400px;
-    height: 400px;
-    border-radius: 10%;
-    border: 14px solid #F6F1E9;
-    margin: 20px;
+    border-radius: 10px;
+    border: 10px solid #F6F1E9;
 }
 
 #button4 {
     background-color: #E9B824;
-    width: 400px;
-    height: 400px;
-    border-radius: 10%;
-    border: 14px solid #F6F1E9;
-    margin: 20px;
+    border-radius: 10px;
+    border: 10px solid #F6F1E9;
 }
 
 .effect{
