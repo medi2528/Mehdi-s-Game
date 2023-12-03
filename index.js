@@ -93,13 +93,13 @@ $("#start").click(function() {
   setTimeout(function(){ 
     $("#start").fadeOut("slow");
     $("#how").fadeOut("slow");
-  }, 1000);
+  }, 500);
   
   setTimeout(function(){ 
     $(".btn1").fadeIn();
     levelChange();
     started = true;
-  }, 2000);
+  }, 1000);
   
   
   }
