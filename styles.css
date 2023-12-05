@@ -24,6 +24,7 @@ h1{
     background-color: #441c0c;
     border-radius: 10px;
     border: 5px solid #F6F1E9;
+    max-height: 400Px;
 }
 
 #button2 {
