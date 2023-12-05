@@ -29,32 +29,32 @@ h1{
     background-color: #441c0c;
     border-radius: 10px;
     border: 5px solid #F6F1E9;
-    max-height: 300px;
-    max-width: 300px;
+    max-height: 100px;
+    max-width: 100px;
 }
 
 #button2 {
     background-color:#92271d;
     border-radius: 10px;
     border: 5px solid #F6F1E9;
-    max-height: 300px;
-    max-width: 300px;
+    max-height: 100px;
+    max-width: 100px;
 }
 
 #button3{
     background-color: #ED7D31;
     border-radius: 10px;
     border: 5px solid #F6F1E9;
-    max-height: 300px;
-    max-width: 300px;
+    max-height: 100px;
+    max-width: 100px;
 }
 
 #button4 {
     background-color: #E9B824;
     border-radius: 10px;
     border: 5px solid #F6F1E9;
-    max-height: 300px;
-    max-width: 300px;
+    max-height: 100px;
+    max-width: 100px;
 }
 
 .effect{
