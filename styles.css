@@ -29,24 +29,32 @@ h1{
     background-color: #441c0c;
     border-radius: 10px;
     border: 5px solid #F6F1E9;
+    max-height: 600px;
+    max-width: 600px;
 }
 
 #button2 {
     background-color:#92271d;
     border-radius: 10px;
     border: 5px solid #F6F1E9;
+    max-height: 600px;
+    max-width: 600px;
 }
 
 #button3{
     background-color: #ED7D31;
     border-radius: 10px;
     border: 5px solid #F6F1E9;
+    max-height: 600px;
+    max-width: 600px;
 }
 
 #button4 {
     background-color: #E9B824;
     border-radius: 10px;
     border: 5px solid #F6F1E9;
+    max-height: 600px;
+    max-width: 600px;
 }
 
 .effect{
